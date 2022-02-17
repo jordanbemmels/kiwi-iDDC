@@ -192,6 +192,60 @@ Now, inspect the *veg2k* file for the second time period (*veg2K_model_G_env2_po
 
 The carrying capacity has not changed for any of the printed lines except for category 12, where it is now k_0. This means that after the transition to the second environment (postLIG), the carrying capacity that was previously k_7 in pixels with a value of 12 is now changed to k_0. Continuing this logic further for all seven time periods, there are 605 different unique combinations of carrying capacity for a given pixel (which we know since there are 605 rows in the *veg2k* files).
 
-For more details, see the SPLATCHE3 user manual.
+## Create dynamic_K files
 
+Write a function to create a dynamic_K file:
 
+```
+write_dynK <- function(env_names, gen_times, dynK_filename) {
+	
+	if (length(gen_times) != length(env_names)) {
+		stop("ERROR: the number of environment names provided does not match the number of generation times at which to initiate the environment");
+	}
+
+	dynK_con <- file(dynK_filename, "w");
+	writeLines(as.character(length(env_names)), dynK_con); # number of unique veg2K files;
+	for (i in 1:length(env_names)) {
+		writeLines(paste0(gen_times[i], " ./splatche3input/veg2K_", env_names[i], "-temp.txt ", env_names[i]), dynK_con);
+	}
+	writeLines("\n");
+	close(dynK_con);
+	
+}
+```
+
+Generate the file for a given model. Here, and example is shown for Model G to match the files generated above. Note that the environment names **must** exactly match those used in *writeOriVeg2K()* above for a given model.
+
+```
+write_dynK(env_names = c("model_G_env1_LIG", "model_G_env2_postLIG", "model_G_env3_preLGM", "model_G_env4_LGM", "model_G_env5_earlyHolo", "model_G_env6_midHolo", "model_G_env7_current"), gen_times = c(0, 909, 2955, 5000, 5546, 5837, 6228), dynK_filename = "dynamic_K_model_G.txt");
+```
+
+The outfile is named *dynamic_K_model_G.txt* and its contents are as follows:
+
+```
+7
+0 ./splatche3input/veg2K_model_G_env1_LIG-temp.txt model_G_env1_LIG
+909 ./splatche3input/veg2K_model_G_env2_postLIG-temp.txt model_G_env2_postLIG
+2955 ./splatche3input/veg2K_model_G_env3_preLGM-temp.txt model_G_env3_preLGM
+5000 ./splatche3input/veg2K_model_G_env4_LGM-temp.txt model_G_env4_LGM
+5546 ./splatche3input/veg2K_model_G_env5_earlyHolo-temp.txt model_G_env5_earlyHolo
+5837 ./splatche3input/veg2K_model_G_env6_midHolo-temp.txt model_G_env6_midHolo
+6228 ./splatche3input/veg2K_model_G_env7_current-temp.txt model_G_env7_current
+```
+
+The first line lists the total number of time periods (seven). Each subsequent line lists in sequential order the timing (number of generations) in the demographic simulation at which a given *veg2K* file is applied, the path to that *veg2K* file, and the environment name. Here, the simulation is initiated at 0 generations (the beginning of the time-forward simulation) using the LIG *veg2K* file to interpret the carrying capacities in the *oriworld* file. At 909 generations, it the habitat suitabilities change and the postLIG *veg2K* file is used instead. At 2,955 generations, it switches to the pre-LGM *veg2K* file, etc.
+
+##  Create dens_init files
+
+The *dens_init* file describe the initial starting densities in each deme (pixel) at the onset of the demographic simulation. These are defined as areas above a minimum habitat-suitability threshold. There are only two possibilities in the models included in the manuscript, as all models being in the Last Interglacial ("LIG") and may optionally have barriers applied between the four genetic clusters ("LIG_fourLineages").
+
+```
+# load a non-binned landscape for the LIG and LIG_fourLineages with raw habitat suitability values that have not been rescaled and binned (raw scale from 0 to 1);
+LIG <- raster("./mantelli_LIG_env.tif");
+LIG_fourLineages <- raster("./mantelli_fourLineages_LIG_env.tif");
+
+# define a threshold above which probability of occupation is high and which will be used to define demes in which to initiate individuals at the beginning of the simulation;
+# this cutoff can arbitrarily be whatever you want, here it was determined by inspecting the habitat suitability values from empirical occurrence records obtained from GBIF and used for early iterations of species distribution models that were included in the final published study;
+cutoff <- 0.376033;
+
+```
