@@ -10,7 +10,7 @@ The overall goal is to take rasters describing habitat suitability in different 
 
 ```oriworld.asc``` - a map (ASCII-format) where pixel values represent unique combinations of habitat suitability through time</br>
 ```veg2K_XXX.asc``` - a file translating the oriworld pixel values into actual carrying capacities for time period XXX</br>
-```dynamic_K.txt``` - describes when (number of generations) to apply the landscapes for each time period
+```dynamic_K.txt``` - describes when (number of generations) to apply the landscapes for each time period</br>
 ```densinit.txt``` - describes the starting locations (demes) in which individuals are initialized at the beginning of the simulation
 
 ## Preparing landscape rasters
