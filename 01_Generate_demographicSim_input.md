@@ -4,14 +4,14 @@ This document describes the steps needed to prepare model-specific input files f
 
 The functions presented here are conceptually inspired by [code](https://github.com/KnowlesLab/X-ORGIN) written by Qixin He for X-ORIGIN [(He et al. 2017 Mol Ecol)](https://doi.org/10.1111/mec.14380), but have been completely rewritten in *R* and redeveloped for the purposes of the present project.
 
-There are multiple input files for SPLATCHE3. Some of these are relatively straightforward and generic across models. Those files will be explained subsequently in Step 02. Instead, the purpose of this document is to describe the generation of the more complex input files that describe the dynamic landscape (i.e., changes in habitat suitability from the onset of the simulation at 140 ka until the pesent), which are specific to each individual iDDC model scenario.
+There are multiple input files for SPLATCHE3. Some of these are relatively straightforward and generic across models. Those files will be explained subsequently in Step 02. Instead, the purpose of this document is to describe the generation of the more complex input files that describe the dynamic landscape (i.e., changes in carrying capacity from the onset of the simulation at 140 ka until the pesent), which are specific to each individual iDDC model scenario.
 
-The overall goal is to take rasters describing habitat suitability in different time periods (see [landscape_rasters](https://github.com/jordanbemmels/kiwi-iDDC/tree/main/landscape_rasters)), and convert them into input files that Splatche3 understands. There are four categories of model-specific input files:
+The overall goal is to take rasters describing habitat suitability in different time periods (see [landscape_rasters](https://github.com/jordanbemmels/kiwi-iDDC/tree/main/landscape_rasters)), and convert them into carrying capacities in input files that Splatche3 understands. There are four categories of model-specific input files:
 
-```oriworld.asc``` - a map (ASCII-format) where pixel values represent unique combinations of habitat suitability through time</br>
+```oriworld.asc``` - a map (ASCII-format) where pixel values represent unique combinations of carrying capacity through time</br>
 ```veg2K_XXX.asc``` - a file translating the oriworld pixel values into actual carrying capacities for time period XXX</br>
 ```dynamic_K.txt``` - describes when (number of generations) to apply the landscapes for each time period</br>
-```densinit.txt``` - describes the starting locations (demes) in which individuals are initialized at the beginning of the simulation
+```densinit.txt``` - describes the starting locations (demes) in which source populations are initialized at the beginning of the simulation
 
 ## Preparing landscape rasters
 
@@ -87,7 +87,7 @@ euro_fourLineages_sae <- crop(euro_fourLineages_binned, study_area_extent);
 
 ## Create oriworld and veg2k files
 
-Write a function to create the oriworld and veg2K files for a given model. The overall logic is to create a data frame of all possible combinations of binned habitat suitabilities across all the sequential time periods of the model, assign each possible combination a unique number, create the "oriworld" in which each raster cell will be assigned the appropriate unique number, and then create veg2K files that interpret what the carrying capacity actually means for each unique number in each of the sequential time periods.
+Write a function to create the oriworld and veg2K files for a given model. The overall logic is to create a data frame of all possible combinations of binned habitat suitabilities across all the sequential time periods of the model. Each possible combination is assigned a unique number, then we create both the "oriworld" in which each raster cell will be assigned the appropriate unique number, as well as the veg2K files that interpret what the carrying capacity actually means for each unique number in each of the sequential time periods.
 
 ```
 writeOriVeg2K <- function(sequential_envs, env_names, oriworld_filename) {
@@ -190,7 +190,7 @@ Now, inspect the *veg2k* file for the second time period (*veg2K_model_G_env2_po
 605	k_0	605
 ```
 
-The carrying capacity has not changed for any of the printed lines except for category 12, where it is now k_0. This means that after the transition to the second environment (postLIG), the carrying capacity that was previously k_7 in pixels with a value of 12 is now changed to k_0. Continuing this logic further for all seven time periods, there are 605 different unique combinations of carrying capacity for a given pixel (which we know since there are 605 rows in the *veg2k* files).
+The carrying capacity has not changed for any of the printed lines except for category 12, where it is now k_0. This means that after the transition to the second environment (postLIG), the carrying capacity in pixels with a value of 12 that was previously k_7 is now changed to k_0. Continuing this logic further for all seven time periods, there are 605 different unique combinations of carrying capacity for a given pixel (since there are 605 rows in the *veg2k* files).
 
 ## Create dynamic_K files
 
@@ -233,19 +233,83 @@ The outfile is named *dynamic_K_model_G.txt* and its contents are as follows:
 6228 ./splatche3input/veg2K_model_G_env7_current-temp.txt model_G_env7_current
 ```
 
-The first line lists the total number of time periods (seven). Each subsequent line lists in sequential order the timing (number of generations) in the demographic simulation at which a given *veg2K* file is applied, the path to that *veg2K* file, and the environment name. Here, the simulation is initiated at 0 generations (the beginning of the time-forward simulation) using the LIG *veg2K* file to interpret the carrying capacities in the *oriworld* file. At 909 generations, it the habitat suitabilities change and the postLIG *veg2K* file is used instead. At 2,955 generations, it switches to the pre-LGM *veg2K* file, etc.
+The first line lists the total number of time periods (seven). Each subsequent line lists in sequential order the timing (number of generations) in the demographic simulation at which a given *veg2K* file is applied, the path to that *veg2K* file, and the environment name. Here, the simulation is initiated at 0 generations (the beginning of the time-forward simulation) using the LIG *veg2K* file to interpret the carrying capacities in the *oriworld* file. At 909 generations, the carrying capacities change and the postLIG *veg2K* file is used instead. At 2,955 generations, carrying capacity switches to the preLGM *veg2K* file, etc.
 
 ##  Create dens_init files
 
-The *dens_init* file describe the initial starting densities in each deme (pixel) at the onset of the demographic simulation. These are defined as areas above a minimum habitat-suitability threshold. There are only two possibilities in the models included in the manuscript, as all models being in the Last Interglacial ("LIG") and may optionally have barriers applied between the four genetic clusters ("LIG_fourLineages").
+The *dens_init* file describes the initial starting densities in each source population at the onset of the demographic simulation. Here, it is set up so that each source population occupies a single pixel (deme), with source populations defined as areas above a minimum habitat-suitability threshold. There are only two possibily *dens_init* files in the models included in the manuscript, as all models begin in the Last Interglacial ("LIG") and may optionally have barriers applied between the four genetic clusters ("LIG_fourLineages").
 
 ```
-# load a non-binned landscape for the LIG and LIG_fourLineages with raw habitat suitability values that have not been rescaled and binned (raw scale from 0 to 1);
-LIG <- raster("./mantelli_LIG_env.tif");
-LIG_fourLineages <- raster("./mantelli_fourLineages_LIG_env.tif");
+# load a non-binned environment for the LIG and LIG_fourLineages with raw habitat suitability values that have not been rescaled and binned (raw scale from 0 to 1);
+LIG <- raster("./extras/mantelli_LIG_env.tif");
+LIG_fourLineages <- raster("./extras/mantelli_fourLineages_LIG_env.tif");
 
 # define a threshold above which probability of occupation is high and which will be used to define demes in which to initiate individuals at the beginning of the simulation;
-# this cutoff can arbitrarily be whatever you want, here it was determined by inspecting the habitat suitability values from empirical occurrence records obtained from GBIF and used for early iterations of species distribution models that were included in the final published study;
+# this cutoff can arbitrarily be whatever you want, here it was determined by inspecting the habitat suitability values from empirical occurrence records obtained from GBIF and used for early iterations of species distribution models that were not included in the final published study;
 cutoff <- 0.376033;
 
+# extract the latitude and longitude of all cells above the threshold in the non-binned LGM environments;
+starting_locations_LIG <- as.data.frame(xyFromCell(LIG, which(getValues(LIG) > cutoff)));
+starting_locations_LIG_fourLineages <- as.data.frame(xyFromCell(LIG_fourLineages, which(getValues(LIG_fourLineages) > cutoff)));
+
+### output the starting latitude and longitude in the format of a dens_init.txt file;
+
+# add the habitat suitability of the binned maps, and convert it to variable format for the initial densities;
+starting_locations_LIG$habitatSuitability <- extract(LIG_sae, starting_locations_LIG[ , 1:2]);
+starting_locations_LIG$varName <- paste0("DENSINIT", starting_locations_LIG$habitatSuitability);
+
+starting_locations_LIG_fourLineages$habitatSuitability <- extract(LIG_fourLineages_sae, starting_locations_LIG_fourLineages[ , 1:2]);
+starting_locations_LIG_fourLineages$varName <- paste0("DENSINIT", starting_locations_LIG_fourLineages$habitatSuitability);
+
+# prepare the dataframes;
+dens_df_LIG <- data.frame(Pop_name = paste0("source", 1:nrow(starting_locations_LIG)),
+	pop_size = starting_locations_LIG$varName,
+	Lat = starting_locations_LIG$y,
+	Long = starting_locations_LIG$x,
+	ResizeA = starting_locations_LIG$varName,
+	Time_ResizeB = 0,
+	ResizeB = 0,
+	MigrationFromCurrentSource = 0,
+	NoLayer = 0,
+	TimeOfExpansion = 0);
+
+dens_df_LIG_fourLineages <- data.frame(Pop_name = paste0("source", 1:nrow(starting_locations_LIG_fourLineages)),
+	pop_size = starting_locations_LIG_fourLineages$varName,
+	Lat = starting_locations_LIG_fourLineages$y,
+	Long = starting_locations_LIG_fourLineages$x,
+	ResizeA = starting_locations_LIG_fourLineages$varName,
+	Time_ResizeB = 0,
+	ResizeB = 0,
+	MigrationFromCurrentSource = 0,
+	NoLayer = 0,
+	TimeOfExpansion = 0);
+
+### write files;
+fileConn <- file("dens_init_LIG.txt");
+write(as.character(nrow(dens_df_LIG)), file = "dens_init_LIG.txt", append = F); # first line of dens_init is the number of starting demes;
+write.table(dens_df_LIG, file = "dens_init_LIG.txt", append = T, sep = "\t", row.names = F, col.names = F, quote = F);
+write("#Pop_name pop_size Lat Long ResizeA Time_ResizeB ResizeB MigrationFromCurrentSource NoLayer TimeOfExpansion", file = "dens_init_LIG.txt", append = T); # final commented-out line;
+close(fileConn);
+
+fileConn <- file("dens_init_LIG_fourLineages.txt");
+write(as.character(nrow(dens_df_LIG_fourLineages)), file = "dens_init_LIG_fourLineages.txt", append = F); # first line of dens_init is the number of starting demes;
+write.table(dens_df_LIG_fourLineages, file = "dens_init_LIG_fourLineages.txt", append = T, sep = "\t", row.names = F, col.names = F, quote = F);
+write("#Pop_name pop_size Lat Long ResizeA Time_ResizeB ResizeB MigrationFromCurrentSource NoLayer TimeOfExpansion", file = "dens_init_LIG_fourLineages.txt", append = T); # final commented-out line;
+close(fileConn);
 ```
+
+There output files are *dens_init_LIG.txt* and *dens_init_LIG_fourLineages.txt*. The contents of the former file are as follows:
+
+```
+1382
+source1	DENSINIT6	-34.375	172.875	DENSINIT6	0	0	0	0	0
+source2	DENSINIT7	-34.375	172.958333333333	DENSINIT7	0	0	0	0	0
+source3	DENSINIT7	-34.375	173.041666666667	DENSINIT7	0	0	0	0	0
+[...]
+source1382	DENSINIT6	-40.7083333333333	175.208333333333	DENSINIT6	0	0	0	0	0
+#Pop_name pop_size Lat Long ResizeA Time_ResizeB ResizeB MigrationFromCurrentSource NoLayer TimeOfExpansion
+```
+
+The first row indicates that individuals are initiated at 1,382 starting locations at the onset of the demographic simulation. The last row is ignored and gives a header for the columns. The columns are as follows: Pop_name: name of the initial source population; pop_size: population size, where DENSINIT6, DENSINIT7, etc., will be replaced by values scaled relative to the value of maximum carrying capacity (Kmax) drawn from a prior; Lat and Long: coordinates of initial source population; ResizeA: resizing of the population at the onset of the simulation; other columns: additional optional settings that were not implemented in the models.
+
+
