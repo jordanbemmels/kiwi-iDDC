@@ -1,0 +1,15 @@
+//Inputfile for the program ABCsampler
+//-----------------------------------------------------------------------
+samplerType standard 
+//-----------------------------------------------------------------------
+estName mantelli.est
+obsName ./calSumStat/empiricalSS.obs
+outName mantelliABC_v6_model_yQ_output
+separateOutputFiles 0
+nbSims 1
+writeHeader 1
+simulationProgram ./splatche3input/SPLATCHE3-Linux-64b
+simInputName ./splatche3input/settings_model_yQ.txt#./splatche3input/dens_init_LIG_fourLineages.txt#./splatche3input/veg2K_model_yQ_env1_LIG_fourLineages.txt#./splatche3input/veg2K_model_yQ_env2_postLIG_fourLineages.txt#./splatche3input/veg2K_model_yQ_env3_preLGM_fourLineages.txt#./splatche3input/veg2K_model_yQ_env4_LGM_fourLineages.txt#./splatche3input/veg2K_model_yQ_env5_earlyHolo.txt#./splatche3input/veg2K_model_yQ_env6_midHolo.txt#./splatche3input/veg2K_model_yQ_env7_current.txt#./splatche3input/veg2K_model_yQ_env8_maori.txt#./splatche3input/veg2K_model_yQ_env9_euro.txt
+simParam SIMINPUTNAME
+sumStatProgram /usr/bin/python
+sumStatParam calSumStat/calSumStat.py#splatche3input#Arrival_cell_output.txt#settings_model_yQ-temp_GenSamples_1.arp#GenSamples.sam#calSumStat
