@@ -1,0 +1,14 @@
+13
+0 ./splatche3input/veg2K_model_yK_env1_LIG-temp.txt model_yK_env1_LIG
+909 ./splatche3input/veg2K_model_yK_env2_postLIG-temp.txt model_yK_env2_postLIG
+2955 ./splatche3input/veg2K_model_yK_env3_preLGM-temp.txt model_yK_env3_preLGM
+5000 ./splatche3input/veg2K_model_yK_env4_LGM-temp.txt model_yK_env4_LGM
+5201 ./splatche3input/veg2K_model_yK_env5_oruanui-temp.txt model_yK_env5_oruanui
+5206 ./splatche3input/veg2K_model_yK_env6_LGM-temp.txt model_yK_env6_LGM
+5546 ./splatche3input/veg2K_model_yK_env7_earlyHolo-temp.txt model_yK_env7_earlyHolo
+5837 ./splatche3input/veg2K_model_yK_env8_midHolo-temp.txt model_yK_env8_midHolo
+6228 ./splatche3input/veg2K_model_yK_env9_current-temp.txt model_yK_env9_current
+6287 ./splatche3input/veg2K_model_yK_env10_hatepe-temp.txt model_yK_env10_hatepe
+6292 ./splatche3input/veg2K_model_yK_env11_current-temp.txt model_yK_env11_current
+6332 ./splatche3input/veg2K_model_yK_env12_maori-temp.txt model_yK_env12_maori
+6357 ./splatche3input/veg2K_model_yK_env13_euro-temp.txt model_yK_env13_euro

@@ -1,0 +1,15 @@
+//Inputfile for the program ABCsampler
+//-----------------------------------------------------------------------
+samplerType standard 
+//-----------------------------------------------------------------------
+estName mantelli.est
+obsName ./calSumStat/empiricalSS.obs
+outName mantelliABC_v6_model_yO_output
+separateOutputFiles 0
+nbSims 1
+writeHeader 1
+simulationProgram ./splatche3input/SPLATCHE3-Linux-64b
+simInputName ./splatche3input/settings_model_yO.txt#./splatche3input/dens_init_LIG_fourLineages.txt#./splatche3input/veg2K_model_yO_env1_LIG_fourLineages.txt#./splatche3input/veg2K_model_yO_env2_postLIG_fourLineages.txt#./splatche3input/veg2K_model_yO_env3_preLGM_fourLineages.txt#./splatche3input/veg2K_model_yO_env4_LGM_fourLineages.txt#./splatche3input/veg2K_model_yO_env5_oruanui_fourLineages.txt#./splatche3input/veg2K_model_yO_env6_LGM_fourLineages.txt#./splatche3input/veg2K_model_yO_env7_earlyHolo_fourLineages.txt#./splatche3input/veg2K_model_yO_env8_midHolo_fourLineages.txt#./splatche3input/veg2K_model_yO_env9_current_fourLineages.txt#./splatche3input/veg2K_model_yO_env10_hatepe_fourLineages.txt#./splatche3input/veg2K_model_yO_env11_current_fourLineages.txt#./splatche3input/veg2K_model_yO_env12_maori_fourLineages.txt#./splatche3input/veg2K_model_yO_env13_euro_fourLineages.txt
+simParam SIMINPUTNAME
+sumStatProgram /usr/bin/python
+sumStatParam calSumStat/calSumStat.py#splatche3input#Arrival_cell_output.txt#settings_model_yO-temp_GenSamples_1.arp#GenSamples.sam#calSumStat

@@ -1,0 +1,10 @@
+9
+0 ./splatche3input/veg2K_model_yP_env1_LIG-temp.txt model_yP_env1_LIG
+909 ./splatche3input/veg2K_model_yP_env2_postLIG-temp.txt model_yP_env2_postLIG
+2955 ./splatche3input/veg2K_model_yP_env3_preLGM-temp.txt model_yP_env3_preLGM
+5000 ./splatche3input/veg2K_model_yP_env4_LGM-temp.txt model_yP_env4_LGM
+5546 ./splatche3input/veg2K_model_yP_env5_earlyHolo-temp.txt model_yP_env5_earlyHolo
+5837 ./splatche3input/veg2K_model_yP_env6_midHolo-temp.txt model_yP_env6_midHolo
+6228 ./splatche3input/veg2K_model_yP_env7_current-temp.txt model_yP_env7_current
+6332 ./splatche3input/veg2K_model_yP_env8_maori-temp.txt model_yP_env8_maori
+6357 ./splatche3input/veg2K_model_yP_env9_euro-temp.txt model_yP_env9_euro

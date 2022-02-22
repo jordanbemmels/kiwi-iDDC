@@ -1,0 +1,15 @@
+//Inputfile for the program ABCsampler
+//-----------------------------------------------------------------------
+samplerType standard 
+//-----------------------------------------------------------------------
+estName mantelli.est
+obsName ./calSumStat/empiricalSS.obs
+outName mantelliABC_v6_model_yK_output
+separateOutputFiles 0
+nbSims 1
+writeHeader 1
+simulationProgram ./splatche3input/SPLATCHE3-Linux-64b
+simInputName ./splatche3input/settings_model_yK.txt#./splatche3input/dens_init_LIG.txt#./splatche3input/veg2K_model_yK_env1_LIG.txt#./splatche3input/veg2K_model_yK_env2_postLIG.txt#./splatche3input/veg2K_model_yK_env3_preLGM.txt#./splatche3input/veg2K_model_yK_env4_LGM.txt#./splatche3input/veg2K_model_yK_env5_oruanui.txt#./splatche3input/veg2K_model_yK_env6_LGM.txt#./splatche3input/veg2K_model_yK_env7_earlyHolo.txt#./splatche3input/veg2K_model_yK_env8_midHolo.txt#./splatche3input/veg2K_model_yK_env9_current.txt#./splatche3input/veg2K_model_yK_env10_hatepe.txt#./splatche3input/veg2K_model_yK_env11_current.txt#./splatche3input/veg2K_model_yK_env12_maori.txt#./splatche3input/veg2K_model_yK_env13_euro.txt
+simParam SIMINPUTNAME
+sumStatProgram /usr/bin/python
+sumStatParam calSumStat/calSumStat.py#splatche3input#Arrival_cell_output.txt#settings_model_yK-temp_GenSamples_1.arp#GenSamples.sam#calSumStat
