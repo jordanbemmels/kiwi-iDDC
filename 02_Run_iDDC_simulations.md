@@ -42,7 +42,7 @@ cd kiwi-iDDC/workingDir_compileCalSumStat
 rm arl_run.ars
 rm empiricalSS.obs
 rm ssdefs.txt
-cp ../model_scripts/calSumStat_kiwi_replacementFiles/*
+cp ../model_scripts/calSumStat_kiwi_replacementFiles/* ./
 ```
 
 Now, ```kiwi-iDDC/workingDir_compileCalSumStat``` has all the files updated for the kiwi project, and is ready to be used with any of the kiwi iDDC models. Move a copy (renaming it as "calSumStat") to each of the model directories.
