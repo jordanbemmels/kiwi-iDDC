@@ -1,0 +1,10 @@
+9
+0 ./splatche3input/veg2K_model_T_env1_LIG_fourLineages-temp.txt model_T_env1_LIG_fourLineages
+909 ./splatche3input/veg2K_model_T_env2_postLIG_fourLineages-temp.txt model_T_env2_postLIG_fourLineages
+2955 ./splatche3input/veg2K_model_T_env3_preLGM_fourLineages-temp.txt model_T_env3_preLGM_fourLineages
+5000 ./splatche3input/veg2K_model_T_env4_LGM_fourLineages-temp.txt model_T_env4_LGM_fourLineages
+5546 ./splatche3input/veg2K_model_T_env5_earlyHolo-temp.txt model_T_env5_earlyHolo
+5837 ./splatche3input/veg2K_model_T_env6_midHolo-temp.txt model_T_env6_midHolo
+6228 ./splatche3input/veg2K_model_T_env7_current-temp.txt model_T_env7_current
+6287 ./splatche3input/veg2K_model_T_env8_hatepe-temp.txt model_T_env8_hatepe
+6292 ./splatche3input/veg2K_model_T_env9_current-temp.txt model_T_env9_current
