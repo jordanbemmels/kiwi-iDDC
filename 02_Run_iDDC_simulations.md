@@ -14,9 +14,15 @@ A complete version of a *calSamStat* directory with scripts useful for iDDC mode
 
 *He, Q, JR Prado, and LL Knowles. 2017. Inferring the geographic origin of a range expansion: Latitudinal and longitudinal coordinates inferred from genomic data in an ABC framework with the program X-ORIGIN. Mol Ecol, **26**: 6908-6920.*
 
-Begin by downloading X-ORIGIN v1.0 (XOrigin_v1) from [https://github.com/KnowlesLab/X-ORGIN/releases](https://github.com/KnowlesLab/X-ORGIN/releases). Extract and copy ```./X-ORIGIN/example/calSumStat``` to a convenient working directory.
+Begin by downloading X-ORIGIN v1.0 (XOrigin_v1) from [https://github.com/KnowlesLab/X-ORGIN/releases](https://github.com/KnowlesLab/X-ORGIN/releases). Extract and copy ```./X-ORIGIN/example/calSumStat``` to a convenient working directory (adjust relative paths as necessary):
 
-The downloaded ```calSumStat``` directory contains the following files:
+```
+cd ./
+cp -r X-ORIGIN/example/calSumStat kiwi-iDDC/workingDir_compileCalSumStat
+cd kiwi-iDDC/workingDir_compileCalSumStat
+```
+
+The directory ```workingDir_compileCalSumStat``` contains the following files:
 
 ```
 arl_run.ars # input file for Arlequin
@@ -28,11 +34,27 @@ re_functions_resistance.r # additional functions loaded by calPsi.r
 ssdefs.txt # input file for Arlequin
 ```
 
-We do not need to modify *calPsi.r*, *calSumStat.py*, or *re_functions_resistance.r*. You may need to replace the default *arlsumstat* executable with a version that works on your own system, if the downloaded one does not work. The remaining three files (*arl_run.ars*, *empiricalSS.obs*, and *ssdefs.txt*) are specific to the example downloaded from the X-ORIGIN repository. These three files need to be replaced with updated versions specific to the kiwi-iDDC project, which are located in [kiwi-iDDC/model_scripts/](https://github.com/jordanbemmels/kiwi-iDDC/tree/main/model_scripts/calSumStat_kiwi_replacementFiles).
+We do not need to modify *calPsi.r*, *calSumStat.py*, or *re_functions_resistance.r*. You may need to replace the default *arlsumstat* executable with a version that works on your own system, if the downloaded one does not work. The remaining three files (*arl_run.ars*, *empiricalSS.obs*, and *ssdefs.txt*) are specific to the example downloaded from the X-ORIGIN repository and will not work with the kiwi iDDC models. These three files need to be replaced with updated versions specific to the kiwi iDDC project, which are located in [kiwi-iDDC/model_scripts/](https://github.com/jordanbemmels/kiwi-iDDC/tree/main/model_scripts/calSumStat_kiwi_replacementFiles).
 
+```
+cd kiwi-iDDC/workingDir_compileCalSumStat
+rm arl_run.ars
+rm empiricalSS.obs
+rm ssdefs.txt
+cp ../model_scripts/calSumStat_kiwi_replacementFiles/*
+```
 
+Now, ```kiwi-iDDC/workingDir_compileCalSumStat``` has all the files updated for the kiwi project, and is ready to be used with any of the kiwi iDDC models. Move a copy (renaming it as "calSumStat") to each of the model directories.
 
+```
+cd kiwi-iDDC
+cp -r workingDir_compileCalSumStat mantelliABC_v6_model_G/calSumStat
+cp -r workingDir_compileCalSumStat mantelliABC_v6_model_H/calSumStat
+[...]
+cp -r workingDir_compileCalSumStat mantelliABC_v6_model_yR/calSumStat
+```
 
+## Adding simulation software executable files
 
 
 
