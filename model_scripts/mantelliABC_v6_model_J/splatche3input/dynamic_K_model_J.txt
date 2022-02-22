@@ -1,0 +1,12 @@
+11
+0 ./splatche3input/veg2K_model_J_env1_LIG_fourLineages-temp.txt model_J_env1_LIG_fourLineages
+909 ./splatche3input/veg2K_model_J_env2_postLIG_fourLineages-temp.txt model_J_env2_postLIG_fourLineages
+2955 ./splatche3input/veg2K_model_J_env3_preLGM_fourLineages-temp.txt model_J_env3_preLGM_fourLineages
+5000 ./splatche3input/veg2K_model_J_env4_LGM_fourLineages-temp.txt model_J_env4_LGM_fourLineages
+5201 ./splatche3input/veg2K_model_J_env5_oruanui_fourLineages-temp.txt model_J_env5_oruanui_fourLineages
+5206 ./splatche3input/veg2K_model_J_env6_LGM_fourLineages-temp.txt model_J_env6_LGM_fourLineages
+5546 ./splatche3input/veg2K_model_J_env7_earlyHolo-temp.txt model_J_env7_earlyHolo
+5837 ./splatche3input/veg2K_model_J_env8_midHolo-temp.txt model_J_env8_midHolo
+6228 ./splatche3input/veg2K_model_J_env9_current-temp.txt model_J_env9_current
+6287 ./splatche3input/veg2K_model_J_env10_hatepe-temp.txt model_J_env10_hatepe
+6292 ./splatche3input/veg2K_model_J_env11_current-temp.txt model_J_env11_current

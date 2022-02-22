@@ -1,0 +1,3751 @@
+1250 //Num chromosomes
+#chromosome 1, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 2, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 3, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 4, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 5, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 6, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 7, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 8, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 9, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 10, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 11, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 12, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 13, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 14, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 15, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 16, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 17, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 18, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 19, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 20, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 21, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 22, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 23, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 24, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 25, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 26, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 27, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 28, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 29, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 30, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 31, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 32, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 33, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 34, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 35, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 36, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 37, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 38, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 39, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 40, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 41, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 42, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 43, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 44, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 45, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 46, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 47, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 48, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 49, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 50, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 51, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 52, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 53, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 54, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 55, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 56, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 57, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 58, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 59, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 60, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 61, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 62, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 63, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 64, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 65, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 66, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 67, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 68, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 69, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 70, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 71, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 72, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 73, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 74, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 75, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 76, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 77, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 78, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 79, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 80, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 81, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 82, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 83, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 84, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 85, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 86, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 87, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 88, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 89, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 90, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 91, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 92, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 93, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 94, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 95, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 96, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 97, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 98, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 99, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 100, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 101, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 102, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 103, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 104, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 105, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 106, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 107, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 108, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 109, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 110, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 111, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 112, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 113, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 114, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 115, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 116, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 117, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 118, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 119, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 120, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 121, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 122, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 123, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 124, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 125, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 126, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 127, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 128, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 129, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 130, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 131, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 132, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 133, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 134, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 135, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 136, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 137, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 138, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 139, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 140, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 141, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 142, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 143, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 144, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 145, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 146, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 147, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 148, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 149, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 150, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 151, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 152, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 153, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 154, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 155, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 156, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 157, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 158, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 159, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 160, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 161, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 162, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 163, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 164, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 165, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 166, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 167, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 168, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 169, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 170, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 171, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 172, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 173, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 174, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 175, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 176, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 177, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 178, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 179, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 180, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 181, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 182, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 183, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 184, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 185, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 186, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 187, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 188, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 189, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 190, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 191, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 192, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 193, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 194, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 195, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 196, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 197, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 198, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 199, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 200, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 201, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 202, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 203, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 204, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 205, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 206, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 207, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 208, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 209, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 210, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 211, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 212, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 213, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 214, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 215, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 216, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 217, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 218, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 219, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 220, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 221, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 222, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 223, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 224, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 225, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 226, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 227, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 228, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 229, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 230, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 231, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 232, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 233, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 234, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 235, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 236, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 237, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 238, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 239, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 240, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 241, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 242, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 243, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 244, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 245, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 246, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 247, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 248, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 249, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 250, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 251, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 252, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 253, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 254, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 255, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 256, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 257, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 258, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 259, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 260, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 261, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 262, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 263, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 264, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 265, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 266, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 267, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 268, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 269, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 270, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 271, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 272, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 273, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 274, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 275, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 276, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 277, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 278, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 279, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 280, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 281, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 282, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 283, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 284, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 285, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 286, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 287, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 288, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 289, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 290, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 291, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 292, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 293, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 294, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 295, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 296, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 297, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 298, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 299, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 300, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 301, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 302, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 303, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 304, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 305, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 306, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 307, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 308, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 309, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 310, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 311, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 312, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 313, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 314, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 315, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 316, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 317, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 318, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 319, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 320, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 321, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 322, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 323, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 324, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 325, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 326, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 327, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 328, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 329, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 330, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 331, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 332, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 333, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 334, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 335, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 336, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 337, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 338, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 339, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 340, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 341, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 342, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 343, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 344, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 345, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 346, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 347, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 348, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 349, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 350, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 351, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 352, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 353, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 354, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 355, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 356, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 357, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 358, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 359, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 360, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 361, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 362, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 363, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 364, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 365, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 366, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 367, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 368, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 369, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 370, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 371, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 372, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 373, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 374, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 375, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 376, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 377, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 378, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 379, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 380, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 381, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 382, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 383, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 384, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 385, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 386, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 387, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 388, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 389, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 390, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 391, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 392, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 393, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 394, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 395, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 396, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 397, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 398, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 399, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 400, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 401, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 402, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 403, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 404, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 405, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 406, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 407, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 408, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 409, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 410, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 411, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 412, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 413, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 414, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 415, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 416, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 417, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 418, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 419, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 420, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 421, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 422, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 423, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 424, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 425, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 426, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 427, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 428, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 429, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 430, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 431, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 432, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 433, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 434, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 435, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 436, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 437, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 438, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 439, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 440, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 441, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 442, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 443, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 444, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 445, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 446, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 447, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 448, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 449, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 450, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 451, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 452, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 453, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 454, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 455, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 456, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 457, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 458, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 459, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 460, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 461, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 462, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 463, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 464, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 465, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 466, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 467, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 468, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 469, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 470, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 471, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 472, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 473, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 474, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 475, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 476, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 477, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 478, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 479, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 480, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 481, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 482, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 483, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 484, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 485, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 486, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 487, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 488, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 489, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 490, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 491, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 492, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 493, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 494, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 495, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 496, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 497, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 498, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 499, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 500, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 501, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 502, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 503, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 504, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 505, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 506, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 507, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 508, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 509, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 510, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 511, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 512, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 513, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 514, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 515, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 516, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 517, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 518, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 519, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 520, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 521, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 522, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 523, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 524, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 525, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 526, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 527, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 528, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 529, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 530, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 531, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 532, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 533, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 534, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 535, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 536, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 537, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 538, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 539, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 540, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 541, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 542, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 543, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 544, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 545, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 546, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 547, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 548, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 549, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 550, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 551, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 552, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 553, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 554, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 555, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 556, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 557, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 558, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 559, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 560, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 561, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 562, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 563, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 564, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 565, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 566, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 567, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 568, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 569, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 570, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 571, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 572, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 573, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 574, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 575, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 576, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 577, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 578, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 579, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 580, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 581, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 582, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 583, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 584, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 585, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 586, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 587, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 588, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 589, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 590, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 591, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 592, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 593, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 594, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 595, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 596, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 597, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 598, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 599, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 600, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 601, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 602, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 603, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 604, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 605, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 606, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 607, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 608, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 609, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 610, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 611, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 612, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 613, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 614, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 615, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 616, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 617, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 618, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 619, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 620, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 621, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 622, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 623, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 624, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 625, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 626, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 627, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 628, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 629, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 630, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 631, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 632, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 633, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 634, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 635, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 636, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 637, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 638, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 639, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 640, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 641, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 642, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 643, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 644, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 645, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 646, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 647, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 648, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 649, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 650, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 651, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 652, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 653, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 654, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 655, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 656, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 657, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 658, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 659, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 660, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 661, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 662, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 663, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 664, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 665, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 666, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 667, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 668, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 669, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 670, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 671, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 672, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 673, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 674, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 675, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 676, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 677, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 678, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 679, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 680, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 681, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 682, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 683, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 684, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 685, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 686, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 687, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 688, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 689, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 690, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 691, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 692, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 693, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 694, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 695, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 696, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 697, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 698, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 699, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 700, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 701, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 702, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 703, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 704, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 705, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 706, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 707, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 708, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 709, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 710, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 711, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 712, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 713, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 714, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 715, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 716, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 717, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 718, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 719, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 720, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 721, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 722, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 723, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 724, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 725, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 726, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 727, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 728, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 729, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 730, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 731, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 732, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 733, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 734, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 735, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 736, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 737, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 738, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 739, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 740, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 741, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 742, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 743, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 744, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 745, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 746, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 747, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 748, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 749, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 750, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 751, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 752, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 753, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 754, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 755, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 756, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 757, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 758, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 759, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 760, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 761, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 762, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 763, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 764, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 765, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 766, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 767, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 768, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 769, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 770, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 771, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 772, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 773, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 774, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 775, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 776, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 777, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 778, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 779, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 780, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 781, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 782, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 783, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 784, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 785, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 786, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 787, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 788, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 789, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 790, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 791, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 792, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 793, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 794, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 795, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 796, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 797, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 798, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 799, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 800, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 801, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 802, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 803, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 804, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 805, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 806, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 807, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 808, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 809, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 810, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 811, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 812, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 813, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 814, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 815, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 816, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 817, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 818, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 819, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 820, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 821, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 822, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 823, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 824, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 825, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 826, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 827, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 828, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 829, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 830, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 831, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 832, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 833, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 834, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 835, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 836, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 837, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 838, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 839, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 840, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 841, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 842, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 843, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 844, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 845, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 846, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 847, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 848, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 849, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 850, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 851, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 852, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 853, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 854, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 855, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 856, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 857, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 858, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 859, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 860, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 861, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 862, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 863, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 864, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 865, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 866, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 867, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 868, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 869, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 870, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 871, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 872, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 873, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 874, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 875, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 876, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 877, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 878, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 879, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 880, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 881, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 882, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 883, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 884, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 885, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 886, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 887, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 888, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 889, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 890, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 891, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 892, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 893, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 894, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 895, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 896, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 897, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 898, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 899, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 900, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 901, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 902, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 903, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 904, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 905, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 906, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 907, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 908, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 909, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 910, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 911, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 912, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 913, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 914, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 915, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 916, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 917, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 918, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 919, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 920, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 921, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 922, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 923, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 924, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 925, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 926, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 927, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 928, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 929, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 930, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 931, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 932, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 933, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 934, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 935, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 936, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 937, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 938, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 939, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 940, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 941, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 942, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 943, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 944, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 945, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 946, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 947, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 948, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 949, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 950, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 951, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 952, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 953, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 954, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 955, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 956, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 957, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 958, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 959, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 960, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 961, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 962, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 963, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 964, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 965, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 966, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 967, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 968, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 969, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 970, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 971, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 972, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 973, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 974, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 975, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 976, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 977, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 978, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 979, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 980, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 981, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 982, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 983, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 984, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 985, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 986, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 987, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 988, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 989, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 990, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 991, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 992, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 993, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 994, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 995, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 996, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 997, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 998, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 999, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1000, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1001, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1002, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1003, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1004, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1005, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1006, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1007, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1008, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1009, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1010, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1011, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1012, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1013, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1014, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1015, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1016, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1017, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1018, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1019, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1020, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1021, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1022, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1023, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1024, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1025, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1026, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1027, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1028, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1029, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1030, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1031, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1032, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1033, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1034, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1035, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1036, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1037, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1038, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1039, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1040, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1041, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1042, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1043, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1044, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1045, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1046, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1047, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1048, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1049, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1050, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1051, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1052, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1053, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1054, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1055, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1056, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1057, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1058, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1059, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1060, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1061, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1062, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1063, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1064, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1065, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1066, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1067, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1068, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1069, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1070, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1071, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1072, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1073, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1074, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1075, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1076, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1077, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1078, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1079, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1080, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1081, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1082, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1083, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1084, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1085, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1086, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1087, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1088, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1089, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1090, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1091, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1092, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1093, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1094, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1095, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1096, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1097, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1098, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1099, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1100, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1101, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1102, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1103, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1104, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1105, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1106, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1107, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1108, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1109, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1110, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1111, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1112, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1113, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1114, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1115, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1116, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1117, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1118, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1119, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1120, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1121, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1122, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1123, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1124, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1125, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1126, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1127, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1128, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1129, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1130, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1131, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1132, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1133, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1134, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1135, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1136, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1137, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1138, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1139, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1140, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1141, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1142, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1143, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1144, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1145, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1146, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1147, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1148, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1149, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1150, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1151, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1152, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1153, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1154, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1155, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1156, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1157, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1158, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1159, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1160, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1161, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1162, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1163, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1164, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1165, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1166, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1167, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1168, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1169, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1170, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1171, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1172, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1173, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1174, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1175, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1176, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1177, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1178, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1179, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1180, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1181, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1182, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1183, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1184, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1185, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1186, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1187, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1188, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1189, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1190, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1191, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1192, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1193, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1194, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1195, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1196, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1197, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1198, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1199, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1200, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1201, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1202, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1203, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1204, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1205, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1206, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1207, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1208, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1209, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1210, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1211, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1212, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1213, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1214, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1215, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1216, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1217, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1218, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1219, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1220, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1221, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1222, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1223, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1224, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1225, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1226, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1227, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1228, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1229, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1230, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1231, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1232, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1233, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1234, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1235, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1236, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1237, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1238, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1239, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1240, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1241, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1242, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1243, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1244, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1245, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1246, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1247, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1248, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1249, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05
+#chromosome 1250, //per Block:data type, number of loci, per generation recombination, MAF
+1
+SNP	1	0	0.05

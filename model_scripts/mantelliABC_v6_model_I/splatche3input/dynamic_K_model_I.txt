@@ -1,0 +1,12 @@
+11
+0 ./splatche3input/veg2K_model_I_env1_LIG-temp.txt model_I_env1_LIG
+909 ./splatche3input/veg2K_model_I_env2_postLIG-temp.txt model_I_env2_postLIG
+2955 ./splatche3input/veg2K_model_I_env3_preLGM-temp.txt model_I_env3_preLGM
+5000 ./splatche3input/veg2K_model_I_env4_LGM-temp.txt model_I_env4_LGM
+5201 ./splatche3input/veg2K_model_I_env5_oruanui-temp.txt model_I_env5_oruanui
+5206 ./splatche3input/veg2K_model_I_env6_LGM-temp.txt model_I_env6_LGM
+5546 ./splatche3input/veg2K_model_I_env7_earlyHolo-temp.txt model_I_env7_earlyHolo
+5837 ./splatche3input/veg2K_model_I_env8_midHolo-temp.txt model_I_env8_midHolo
+6228 ./splatche3input/veg2K_model_I_env9_current-temp.txt model_I_env9_current
+6287 ./splatche3input/veg2K_model_I_env10_hatepe-temp.txt model_I_env10_hatepe
+6292 ./splatche3input/veg2K_model_I_env11_current-temp.txt model_I_env11_current

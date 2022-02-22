@@ -1,0 +1,15 @@
+//Inputfile for the program ABCsampler
+//-----------------------------------------------------------------------
+samplerType standard 
+//-----------------------------------------------------------------------
+estName mantelli.est
+obsName ./calSumStat/empiricalSS.obs
+outName mantelliABC_v6_model_G_output
+separateOutputFiles 0
+nbSims 1
+writeHeader 1
+simulationProgram ./splatche3input/SPLATCHE3-Linux-64b
+simInputName ./splatche3input/settings_model_G.txt#./splatche3input/dens_init_LIG.txt#./splatche3input/veg2K_model_G_env1_LIG.txt#./splatche3input/veg2K_model_G_env2_postLIG.txt#./splatche3input/veg2K_model_G_env3_preLGM.txt#./splatche3input/veg2K_model_G_env4_LGM.txt#./splatche3input/veg2K_model_G_env5_earlyHolo.txt#./splatche3input/veg2K_model_G_env6_midHolo.txt#./splatche3input/veg2K_model_G_env7_current.txt
+simParam SIMINPUTNAME
+sumStatProgram /usr/bin/python
+sumStatParam calSumStat/calSumStat.py#splatche3input#Arrival_cell_output.txt#settings_model_G-temp_GenSamples_1.arp#GenSamples.sam#calSumStat

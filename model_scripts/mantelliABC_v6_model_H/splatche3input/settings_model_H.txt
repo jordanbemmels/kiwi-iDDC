@@ -1,0 +1,194 @@
+#List of parameters for SPLATCHE3
+#################################
+
+
+##################################################################
+#Parameters linked to filenames
+##################################################################
+
+#Text file with the locations, initial densities, etc of the initial population(s) (MANDATORY)
+PopDensityFile=./splatche3input/dens_init_LIG_fourLineages-temp.txt
+
+#Ascii file describing the initial world (MANDATORY)
+PresVegetationFile=./splatche3input/oriworld_model_H.asc
+
+#Ascii file describing the hydrology (rivers) (NOT MANDATORY)
+#HydroFile=./datasets_1layer-ver3/rivers.asc
+
+#Ascii file with the roughness values (MANDATORY only if FrictionChoice=1 or =2)
+#RoughnessTopoFile=./datasets_1layer-ver3/roughness.asc
+
+#Ascii file with the m_map ID values, to assign direction specific migration rates (NOT MANDATORY)
+#mMapFile=./datasets_1layer-ver3/ppveg.asc
+
+#Text file holding the carying capacity values for each vegetation category (MANDATORY)
+Veg2KFile=./splatche3input/dynamic_K_model_H.txt
+
+#Text file holding the friction values for each vegetation category (NOT MANDATORY)
+#Veg2FFile=./datasets_1layer-ver3/dynamic_F.txt
+
+#Text file holding links to file(s) with the m values for each mMap category (NOT MANDATORY)
+#Veg2mFile=./datasets_1layer-ver3/dynamic_m.txt
+
+##################################################################
+#Parameters linked to demographic simulations
+##################################################################
+
+#Identificator for the demographic model  (MANDATORY)
+ChosenDemographicModel=3
+
+#Number of generations (MANDATORY)
+EndTime=6364
+
+#Generation time, used in several functions needing this (MANDATORY)
+GenerationTime=22
+
+#Growth rate used in the logistic function (MANDATORY)
+GrowthRate=1
+
+#Migration rate for neighboring deme migration (MANDATORY)
+MigrationRate= MRATE
+
+#If this parameter is set to 0, then if the initial population size (N) is
+#greater than the carrying capacity (K) of the source population, the remaining
+#N-K individuals are spread around the neighboring demes (without ever
+#exceeding the carrying capacities of these demes) until N individuals are placed.
+#The "overflow" of individuals allows one to start with a "patch" of source
+#populations, rather than a single source deme. If this parameter is set to 1,
+#all individuals are found in the original deme (even if N >>K), but in this
+#case the population of the source deme can be quickly downward regulated by
+#the logistic function.
+AllowSourcePopulationOverflow=1
+
+#Tau value (in generations). backward in time, this is the time between the onset of the expansion
+#and the timing at which all remainaing lineages are brought into one small deme  (NOT MANDATORY)
+TauValue=0
+
+#Ancestral population size. Size of the ancestral population at tau  (NOT MANDATORY)
+AncestralSize= N_ANCESTRAL
+
+#Text file (*.col) where are found the deme coordinates for which arrival times are needed (MANDATORY)
+ArrivalCellFile=./splatche3input/Arrival_cell.col
+
+##################################################################
+#Parameters linked to long distance dispersal (LDD)
+##################################################################
+#LDDProportion for all cells (NOT MANDATORY)
+#LDDProportion= 0.01
+
+#Shape parameter for the Gamma kernel for all cells (NOT MANDATORY)
+#GammaShapeParamAllCells=0.0419
+
+#Scale parameter for the Gamma kernel for all cells
+#This is the standard scale parameter, which is equal to 1/theta (NOT MANDATORY)
+#e.g., 0.002047083=1/488.5
+#GammaScaleParamAllCells=0.002047083
+
+#Maximum LDD migration distance (in number of demes from the focal deme) (NOT MANDATORY) 
+#LDD_max_treshold=60
+
+##################################################################
+#Parameters linked to physical environment
+##################################################################
+
+#Choice of friction type (0:vegetation,1:roughness topography,2:both)
+#If friction needs to be taken into account, this parameter must be defined
+#(along with "Veg2FFile" and/or "RoughnessTopoFile").
+#If not defined, friction is uniform   (NOT MANDATORY)
+#FrictionChoice=1
+
+#Real time (in years BP) for the start of the simulation. It must be negative!
+#This parameter is linked to the graphical display of the real time in any simulation,
+#but is also linked to the Vostok time series in a dynamic simulation (MANDATORY)
+RealBPTime=-140000
+
+#River Friction change factor [>0]. This is a factor that increases or decreases the frition
+#of the river cells (as defined in the HydroFile input file). The friction of these cells
+#is simply multiplied by this factor.  (NOT MANDATORY)
+#RiverFrictionChangeFactor=0.5
+
+#River Carrying capacity change factor [>0]. This is a factor that increases or decreases the
+#carrying capacity of the river cells (as defined in the HydroFile input file). The carrying capacity of these cells
+#is simply multiplied by this factor. (NOT MANDATORY)
+#RiverCarCapChangeFactor=2
+
+#Coast Friction change factor [>0]. This is a factor that increases or decreases the frition
+#of the coast cells (coasts are automatically defined). The friction of these cells
+#is simply multiplied by this factor.  (NOT MANDATORY)
+#CoastFrictionChangeFactor=0.5
+
+#Coast Carrying capacity change factor [>0]. This is a factor that increases or decreases the
+#carrying capacity of the coast cells (acoasts are automatically defined). The carrying capacity of these cells
+#is simply multiplied by this factor. (NOT MANDATORY)
+#CoastCarCapChangeFactor=2
+
+
+##################################################################
+#Parameters linked to genetic simulations
+##################################################################
+
+#Text file containing the coordinates and sizes (+other info) of the genetic samples
+#It must have a "*.sam" extension (MANDATORY)
+SampleFile=./splatche3input/GenSamples.sam 
+
+#Text file (*.par) containing the definition of markers property (+recombination) (MANDATORY)
+GeneticFile=./splatche3input/genetic_data_SNP.par
+
+#Number of genetic simulations for each demographic one (MANDATORY)
+NumGeneticSimulations=1
+
+#Choice of genotypic or haplotypic data (1:genotypic; 0: haplotypic)(MANDATORY)
+GenotypicData=1
+
+#Maximum number of total generations for a simulation. This number corresponds to
+#the number of generation for the demographic simulation + the extra generations
+#for the coalescence process prior to time 0 (MANDATORY)
+MaxNumGenerations=10000000
+
+#Generation of Nexus files (0:no ; 1: yes) (NOT MANDATORY)
+NexusFile=0
+
+#Generation of genealogy files (0:no ; 1: yes) (MANDATORY)
+GenealogiesFile=0
+
+#Generation of immigrants distribution file (0:no ; 1: yes) (MANDATORY)
+ImmigDistrFile=0
+
+##################################################################
+#Parameters linked to double layers
+##################################################################
+
+#Flag to indicate that double layers (two populations) version is used (0:no ; 1: yes) (MANDATORY)
+DoublePopulationMode=0
+
+##################################################################
+#Parameters linked to various other outputs
+##################################################################
+
+#Generate output BMP of migrations (0:no ; 1: yes) (MANDATORY)
+GenerateOutputMigrationBMP=0
+
+#Generate output BMP of densities (0:no ; 1: yes) (MANDATORY)
+GenerateOutputMDensityBMP=0
+
+#Generate output BMP of occupations (0:no ; 1: yes) (MANDATORY)
+GenerateOutputOccupationBMP=0
+
+#Generate output ASCII of migrations (0:no ; 1: yes) (MANDATORY)
+GenerateOutputMigrationASCII=0
+
+#Generate output ASCII of densities (0:no ; 1: yes) (MANDATORY)
+GenerateOutputMDensityASCII=0
+
+#Generate output ASCII of occupations (0:no ; 1: yes) (MANDATORY)
+GenerateOutputOccupationASCII=0
+
+
+##################################################################
+# Miscelaneous Parameters
+##################################################################
+
+#Allow "short int" (instead of int) to be used for the database. This reduce by half
+#the amount of RAM necessary. Only do that if you are sure that your number of individuals
+#(i.e. population densities and number of migrants) never exceeds 16'000 ! (NOT MANDATORY)
+AllowShortIntForNumberOfIndividuals=0

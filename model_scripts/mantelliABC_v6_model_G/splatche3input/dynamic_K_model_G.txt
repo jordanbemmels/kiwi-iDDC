@@ -1,0 +1,8 @@
+7
+0 ./splatche3input/veg2K_model_G_env1_LIG-temp.txt model_G_env1_LIG
+909 ./splatche3input/veg2K_model_G_env2_postLIG-temp.txt model_G_env2_postLIG
+2955 ./splatche3input/veg2K_model_G_env3_preLGM-temp.txt model_G_env3_preLGM
+5000 ./splatche3input/veg2K_model_G_env4_LGM-temp.txt model_G_env4_LGM
+5546 ./splatche3input/veg2K_model_G_env5_earlyHolo-temp.txt model_G_env5_earlyHolo
+5837 ./splatche3input/veg2K_model_G_env6_midHolo-temp.txt model_G_env6_midHolo
+6228 ./splatche3input/veg2K_model_G_env7_current-temp.txt model_G_env7_current
