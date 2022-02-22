@@ -10,15 +10,16 @@ A directory named *calSumStat* is required, and is generic (i.e., identical) for
 
 A complete version of *calSumStat* is not provided here, because it will contain executable scripts from published software and publicly-available iDDC scripts written by other authors that are not my own intellectual property. Thus, it will be necessary to gather a few scripts from other sources.
 
-A complete version of a *calSamStat* directory with scripts useful for iDDC modelling has previously been published as part of [X-ORIGIN](https://github.com/KnowlesLab/X-ORGIN) software ([He et al. 2017 Mol Ecol](https://doi.org/10.1111/mec.14380)].
+A complete version of a *calSamStat* directory with scripts useful for iDDC modelling has previously been published as part of [X-ORIGIN](https://github.com/KnowlesLab/X-ORGIN) software ([He et al. 2017 Mol Ecol](https://doi.org/10.1111/mec.14380)). If you use these scripts, please cite the following:
 
-*He, Q, JR Prado, and LL Knowles. 2017. Inferring the geographic origin of a range expansion: Latitudinal and longitudinal coordinates inferred from genomic data in an ABC framework with the program X-ORIGIN. Mol Ecol, **26**: 6908-6920.*
+*1. He, Q, JR Prado, and LL Knowles. 2017. Inferring the geographic origin of a range expansion: Latitudinal and longitudinal coordinates inferred from genomic data in an ABC framework with the program X-ORIGIN. Mol Ecol, **26**: 6908-6920.*</br>
+*2. He, Q, DL Edwards, and LL Knowles. 2013. Integrative testing of how environments from the past to the present shape genetic structure across landscapes. Evolution, **67**: 3386-3402.*
 
-Begin by downloading X-ORIGIN v1.0 (XOrigin_v1) from [https://github.com/KnowlesLab/X-ORGIN/releases](https://github.com/KnowlesLab/X-ORGIN/releases). Extract and copy ```./X-ORIGIN/example/calSumStat``` to a convenient working directory (adjust relative paths as necessary):
+Begin by downloading X-ORIGIN v1.0 (XOrigin_v1) from [https://github.com/KnowlesLab/X-ORGIN/releases](https://github.com/KnowlesLab/X-ORGIN/releases). Extract and copy ```./X-ORGIN/example/calSumStat``` to a convenient working directory (adjust relative paths as necessary):
 
 ```
 cd ./
-cp -r X-ORIGIN/example/calSumStat kiwi-iDDC/workingDir_compileCalSumStat
+cp -r X-ORGIN/example/calSumStat kiwi-iDDC/workingDir_compileCalSumStat
 cd kiwi-iDDC/workingDir_compileCalSumStat
 ```
 
