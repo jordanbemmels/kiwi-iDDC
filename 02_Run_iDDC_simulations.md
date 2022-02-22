@@ -49,10 +49,10 @@ Now, ```kiwi-iDDC/workingDir_compileCalSumStat``` has all the files updated for 
 
 ```
 cd kiwi-iDDC
-cp -r workingDir_compileCalSumStat mantelliABC_v6_model_G/calSumStat
-cp -r workingDir_compileCalSumStat mantelliABC_v6_model_H/calSumStat
+cp -r workingDir_compileCalSumStat model_scripts/mantelliABC_v6_model_G/calSumStat
+cp -r workingDir_compileCalSumStat model_scripts/mantelliABC_v6_model_H/calSumStat
 [...]
-cp -r workingDir_compileCalSumStat mantelliABC_v6_model_yR/calSumStat
+cp -r workingDir_compileCalSumStat model_scripts/mantelliABC_v6_model_yR/calSumStat
 ```
 
 ## Adding simulation software executable files
