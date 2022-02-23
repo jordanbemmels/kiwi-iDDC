@@ -4,7 +4,7 @@ Jordan B. Bemmels, Oliver Haddrath, Rogan M. Colbourne, Hugh A. Robertson, Jason
 
 For questions, contact Jordan Bemmels (jordan.bemmels@utoronto.ca).
 
-There is no new software documented here; rather, the focus of the repository is to provide a supplement to the verbal explanations in the manuscript. In particular, the code documents the integrative Distributional, Demographic, and Coalescent (iDDC) model simulations and ABC procedure described in the manuscript.
+There is no new software or methodological advance documented here; rather, the focus of the repository is to provide a supplement to the verbal explanations in the manuscript. In particular, the code documents the integrative Distributional, Demographic, and Coalescent (iDDC) model simulations and ABC procedure described in the manuscript.
 
 There are three main sections (as well as directories containing example scripts and input files):
 
