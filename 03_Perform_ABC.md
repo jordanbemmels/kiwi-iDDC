@@ -57,20 +57,45 @@ Rscript ABC01c_reformat_boxcox_defs_v6.5_noPsi.R
 
 The output file ready for downstream use is ```boxcox_params_mantelli_v6.5_noPsi.txt```.
 
-## Calculate PLS components for all simulations
+## Calculate PLS components for all simulations and empirical data
 
 We are ready to perform boxcox transformation and calculate the PLS linear combinations on the full set of 100,000 simulations for each model. This is done using the *transformer_64bit* script distributed with ABCtoolbox, and available for download [here](http://cmpg.unibe.ch/software/ABCtoolbox/).
 
 ```
 cd ABC_scripts
 chmod +x transformer_64bit
-time ./transformer_64bit boxcox_params_mantelli_v6.5_noPsi.txt mantelliABC_v6_model_G_100K.txt mantelliABC_v6.5_model_G_100K_transformed_noPsi.txt boxcox
-time ./transformer_64bit boxcox_params_mantelli_v6.5_noPsi.txt mantelliABC_v6_model_H_100K.txt mantelliABC_v6.5_model_H_100K_transformed_noPsi.txt boxcox
+./transformer_64bit boxcox_params_mantelli_v6.5_noPsi.txt mantelliABC_v6_model_G_100K.txt mantelliABC_v6.5_model_G_100K_transformed_noPsi.txt boxcox
+./transformer_64bit boxcox_params_mantelli_v6.5_noPsi.txt mantelliABC_v6_model_H_100K.txt mantelliABC_v6.5_model_H_100K_transformed_noPsi.txt boxcox
 [...]
 ```
 
-The outfile (e.g., ```mantelliABC_v6.5_model_G_100K_transformed_noPsi.txt```) now contain additional columns representing the PLS linear combinations for all 100,000 simulations.
+The outfile (e.g., ```mantelliABC_v6.5_model_G_100K_transformed_noPsi.txt```) now contain additional columns representing the PLS linear combinations for all 100,000 simulations. There are many unnecessary columns so let's print only the three columns of the model parameters (2-4) and eight PLS components (43-50) in a new directory (*ABCestimator_input_noPsi*):
 
-## 
+```
+cd ABC_scripts
+cut -f 2-4,43-50 mantelliABC_v6.5_model_G_100K_transformed_noPsi.txt > ABCestimator_input_noPsi/mantelliABC_v6.5_model_G_100K_transformed_noPsi.txt
+cut -f 2-4,43-50 mantelliABC_v6.5_model_H_100K_transformed_noPsi.txt > ABCestimator_input_noPsi/mantelliABC_v6.5_model_H_100K_transformed_noPsi.txt
+[...]
+```
+
+We also need to transform the empirical summary statistics in the same way.
+
+```
+cd ABC_scripts
+chmod +x transformer_64bit
+./transformer_64bit boxcox_params_mantelli_v6.5_noPsi.txt empiricalSS.obs empiricalSS_mantelliABC_v6.5_transformed_noPsi.txt boxcox
+```
+
+Now, the PLS linear combinations for the empirical summary statistics are printed in ```empiricalSS_mantelliABC_v6.5_transformed_noPsi.txt```. In order to define which summary statistics to use and select exactly six PLS components (or however many you desire, can be ≤8), we can print only the relevant columns in the empirical data. Note that the summary statistics above had eight PLC components retained, but we do not need to further cut the simulated statistics; we only need to cut the empirical data as that is the input file that will be used to define which summary statistics to use.
+
+```
+cd ABC_scripts
+cut -f 14-19 empiricalSS_mantelliABC_v6.5_transformed_noPsi.txt > ABCestimator_input_noPsi/empiricalSS_mantelliABC_v6.5_transformed_noPsi_6PLS.txt
+```
+
+## Perform ABC
+
+
+
 
 
