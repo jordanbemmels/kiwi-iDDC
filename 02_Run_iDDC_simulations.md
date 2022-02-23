@@ -47,6 +47,8 @@ And if you use the ```arlsumstat``` executable distributed with X-ORIGIN, please
 
 *3. Excoffier, L, and HEL Lischer. 2010. Arlequin suite ver 3.5: a new series of programs to perform population genetic analyses under Linux and Windows. Mol Ecol Res, **10**: 564-567.*
 
+(Note that the kiwi iDDC project does not actually make use of the full X-ORIGIN pipeline. X-ORIGIN is a very particulary type of iDDC modelling. The goal of X-ORIGIN is to estimate the latitude and longitude of range expansions, whereas the goal of the kiwi iDDC project was different. We are only downloading files from the X-ORIGIN pipeline because this is where necessary scripts used in the kiwi project have previously been published by other authors, and are publicly accessible. Note that X-ORIGIN scripts are set up to generate additional summary statistics not mentioned in the manuscript: K (number of alleles), and psi (directionality index). Both of these statistics are calculated by the scripts but were not used in the kiwi iDDC project. K was not used because it was highly redundant with expected heterozygosity. Psi was not used because the kiwi models do not test range expansion from a single refugium. It is not harmful to calculate these statistics for kiwi and they will be excluded from the ABC procedure in subsequent steps.)
+
 Begin by downloading X-ORIGIN v1.0 (XOrigin_v1) from [https://github.com/KnowlesLab/X-ORGIN/releases](https://github.com/KnowlesLab/X-ORGIN/releases). Extract and copy ```./X-ORGIN/example/calSumStat``` to a convenient working directory (adjust relative paths as necessary):
 
 ```
@@ -120,7 +122,7 @@ kiwi-iDDC/model_scripts/mantelliABC_v6_model_G/
 find . | sort -n
 ```
 
-If everything is set up correctly, the output should be:
+If everything is set up correctly, the result of that command should be:
 
 ```
 .
