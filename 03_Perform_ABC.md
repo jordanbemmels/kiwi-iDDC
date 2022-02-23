@@ -52,7 +52,7 @@ The output file are as follows:
 - ```Rplots.pdf```: plots showing selection of lambda parameter for boxcox transformation of summary statistics
 - ```Rojb_myplsr_noPsi.R```: the myplsr R object saved for future use
 
-After this, we can slightly reformat the PLS formula (e.g., add a header) and give it a more appropriate name for future use. We also reduce the number of PLS components to calculate (in the example, reduced to only 8 components) to avoid calculating a huge number of components on the full datasets.
+After this, we can slightly reformat the PLS formula (e.g., add a header) and give it a more appropriate name for future use using [ABC_scripts/ABC01c_reformat_boxcox_defs_v6.5_noPsi.R](https://github.com/jordanbemmels/kiwi-iDDC/blob/main/ABC_scripts/ABC01c_reformat_boxcox_defs_v6.5_noPsi.R). We also reduce the number of PLS components to calculate (in the example, reduced to only 8 components) to avoid calculating a huge number of components on the full datasets.
 
 ```
 cd ABC_scripts
