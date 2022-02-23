@@ -237,7 +237,7 @@ The first line lists the total number of time periods (seven). Each subsequent l
 
 ##  Create dens_init files
 
-The *dens_init* file describes the initial starting densities in each source population at the onset of the demographic simulation. Here, it is set up so that each source population occupies a single pixel (deme), with source populations defined as areas above a minimum habitat-suitability threshold. There are only two possibily *dens_init* files in the models included in the manuscript, as all models begin in the Last Interglacial ("LIG") and may optionally have barriers applied between the four genetic clusters ("LIG_fourLineages").
+The *dens_init* file describes the initial starting densities in each source population at the onset of the demographic simulation. Each source population occupies a single pixel (deme), with source populations defined here as areas above a minimum habitat-suitability threshold. There are only two possibily *dens_init* files in the models included in the manuscript, as all models begin in the Last Interglacial ("LIG") and may optionally have barriers applied between the four genetic clusters ("LIG_fourLineages").
 
 ```
 # load a non-binned environment for the LIG and LIG_fourLineages with raw habitat suitability values that have not been rescaled and binned (raw scale from 0 to 1);
