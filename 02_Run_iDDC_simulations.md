@@ -113,3 +113,67 @@ kiwi-iDDC/model_scripts/mantelliABC_v6_model_G/ABCsampler
 
 ## Confirming model directories are ready to run simulations
 
+One the ```calSumStat``` directory and the software executables have been added to each model directory, check that all files are present and in their proper locations. An example to check whether all files are in their correct locations for Model G is as follows:
+
+```
+kiwi-iDDC/model_scripts/mantelliABC_v6_model_G/
+find . | sort -n
+```
+
+If everything is set up correctly, the output should be:
+
+```
+.
+./ABCsampler
+./calSumStat
+./calSumStat/arl_run.ars
+./calSumStat/arlsumstat
+./calSumStat/calPsi.r
+./calSumStat/calSumStat.py
+./calSumStat/empiricalSS.obs
+./calSumStat/re_functions_resistance.r
+./calSumStat/ssdefs.txt
+./mantelli.est
+./mantelliABC_v6_model_G.input
+./splatche3input
+./splatche3input/Arrival_cell.col
+./splatche3input/GenSamples.sam
+./splatche3input/SPLATCHE3-Linux-64b
+./splatche3input/dens_init_LIG.txt
+./splatche3input/dynamic_K_model_G.txt
+./splatche3input/genetic_data_SNP.par
+./splatche3input/oriworld_model_G.asc
+./splatche3input/settings_model_G.txt
+./splatche3input/veg2K_model_G_env1_LIG.txt
+./splatche3input/veg2K_model_G_env2_postLIG.txt
+./splatche3input/veg2K_model_G_env3_preLGM.txt
+./splatche3input/veg2K_model_G_env4_LGM.txt
+./splatche3input/veg2K_model_G_env5_earlyHolo.txt
+./splatche3input/veg2K_model_G_env6_midHolo.txt
+./splatche3input/veg2K_model_G_env7_current.txt
+```
+
+## Run simulations
+
+We are now ready to run simulations, using ABCsampler as the wrapper program with the .input file to specify the simulation software and all other input files and settings. To run a single simulation (requires Linux 64-bit machine and python 2 [e.g., python 2.7], not python 3):
+
+```
+cd kiwi-iDDC/model_scripts/mantelliABC_v6_model_G/
+./ABCsampler mantelliABC_v6_model_G_NIAGARA.input
+```
+
+There will be several files created, but the main new output file will be as follows:
+
+```
+mantelliABC_v6_model_G_output_sampling1.txt
+```
+
+On each line of the ```output_sampling1.txt``` file will be the simulation replicate, the parameters, and the simulated summary statistics for that replicate.
+
+The default scripts provided here are set up to perform only a single simulation, which may take several minutes. To peform a different number of simulation replicates, adjust the ```nbsims``` setting in the ```mantelliABC_v6_model_G_NIAGARA.input``` file. For example, to perform 100 simulations, adjust line 9 to:
+
+```
+nbSims 100
+```
+
+In reality, for performing large numbers of simulations (e.g., hundreds of thousands) you will likely wish to submit jobs to a High-Performance Computing (HPC) cluster. Scripts are not provided as the setup will be highly specific to individual users.
