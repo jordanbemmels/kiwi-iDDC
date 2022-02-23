@@ -178,4 +178,4 @@ The default scripts provided here are set up to perform only a single simulation
 nbSims 100
 ```
 
-In reality, for performing large numbers of simulations (e.g., hundreds of thousands) you will likely wish to submit jobs to a High-Performance Computing (HPC) cluster. Scripts are not provided as the setup will be highly specific to individual users.
+In reality, for performing large numbers of simulations (e.g., hundreds of thousands) you will likely wish to submit jobs to a High-Performance Computing (HPC) cluster. Scripts are not provided as the setup will be highly specific to individual users. Your institution's HPC cluster will likely provide relevant documentation.
