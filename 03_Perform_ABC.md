@@ -73,7 +73,7 @@ chmod +x transformer_64bit
 [...]
 ```
 
-The outfile (e.g., ```mantelliABC_v6.5_model_G_100K_transformed_noPsi.txt```) now contain additional columns representing the PLS linear combinations for all 100,000 simulations. There are many unnecessary columns so let's print only the three columns of the model parameters (2-4) and eight PLS components (43-50) in a new directory (*ABCestimator_input_noPsi*):
+The outfiles (e.g., ```mantelliABC_v6.5_model_G_100K_transformed_noPsi.txt```) now contain additional columns representing the PLS linear combinations for all 100,000 simulations. There are many unnecessary columns so let's print only the three columns of the model parameters (2-4) and eight PLS components (43-50) in a new directory (*ABCestimator_input_noPsi*):
 
 ```
 cd ABC_scripts
