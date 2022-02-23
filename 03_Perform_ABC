@@ -1,7 +1,0 @@
-# ABC model choice and parameter estimation
-
-This document describes the ABC steps needed to select the best-performing model and estimate its parameters, after the iDDC simulations have been performed for each model. The necessary scripts and input files for this step are provided in the [ABC_scripts](https://github.com/jordanbemmels/kiwi-iDDC/tree/main/ABC_scripts) directory.
-
-## Assemble all simulations and quality control
-
-
