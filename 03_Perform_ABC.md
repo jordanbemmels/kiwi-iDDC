@@ -2,6 +2,10 @@
 
 This document describes the ABC steps needed to select the best-performing model and estimate its parameters, after the iDDC simulations have been performed for each model. The necessary scripts and input files for this step are provided in the [ABC_scripts](https://github.com/jordanbemmels/kiwi-iDDC/tree/main/ABC_scripts) directory.
 
+The steps in this document are based on those described in the [ABCtoolbox](http://cmpg.unibe.ch/software/ABCtoolbox/) manual. If you follow this document, be sure to cite ABCtoolbox:
+
+*Wegmann, D, C Leuenberger, S Neuenschwander, and L Excoffier. 2010. ABCtoolbox: a versatile toolkit for approximate Bayesian computations. BMC Bioinformatics, **11**: 116.*
+
 ## Assemble all simulations and quality control
 
 If the scripts have been run on muliple cores of an HPC cluster (as will likely be the case), the individual output files (simulated summary statistics) will need to be combined into a single file containing all simulations for each model. While doing so, we will also take the opportunity to do several quality checks and exclude any failed individual simulations or entire simulation batches.
