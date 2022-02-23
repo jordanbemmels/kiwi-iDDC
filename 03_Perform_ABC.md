@@ -86,7 +86,7 @@ chmod +x transformer_64bit
 ./transformer_64bit boxcox_params_mantelli_v6.5_noPsi.txt empiricalSS.obs empiricalSS_mantelliABC_v6.5_transformed_noPsi.txt boxcox
 ```
 
-Now, the PLS linear combinations for the empirical summary statistics are printed in ```empiricalSS_mantelliABC_v6.5_transformed_noPsi.txt```. In order to define which summary statistics to use and select exactly six PLS components (or however many you desire, can be ≤8), we can print only the relevant columns in the empirical data. Note that the summary statistics above had eight PLC components retained, but we do not need to further cut the simulated statistics; we only need to cut the empirical data as that is the input file that will be used to define which summary statistics to use.
+Now, the PLS linear combinations for the empirical summary statistics are printed in ```empiricalSS_mantelliABC_v6.5_transformed_noPsi.txt```. In order to define which summary statistics to use and select exactly six PLS components (or however many you desire, can be ≤8 as we retained eight PLS components in the simulated data), we can print only the relevant columns in the empirical data. Note that the summary statistics above had eight PLS components retained, but we do not need to further cut the simulated statistics; we only need to cut the empirical data as that is the input file that will be used to define which summary statistics to use in the ABC step below.
 
 ```
 cd ABC_scripts
@@ -95,7 +95,28 @@ cut -f 14-19 empiricalSS_mantelliABC_v6.5_transformed_noPsi.txt > ABCestimator_i
 
 ## Perform ABC
 
+The actual ABC step is performed with the *ABCestimator_linux64* script that can be downloaded from [ABCtoolbox](http://cmpg.unibe.ch/software/ABCtoolbox/). Download this script and place it here: ```ABC_scripts/ABCestimator_input_noPsi/ABCestimator_linux64```.
 
+In the previous step, we created ```ABC_scripts/ABCestimator_input_noPsi/mantelliABC_v6.5_model_G_100K_transformed_noPsi.txt``` (and equivalent files for subsequent models), and ```ABC_scripts/ABCestimator_input_noPsi/empiricalSS_mantelliABC_v6.5_transformed_noPsi_6PLS.txt```. These are the transformed summary statistics for the simulations for Model G (and subsequent models in other files), and the empirical data, respectively. We also need to define the parameters of the ABC step, in the file ```ABC_scripts/ABCestimator_input_noPsi/mantelliABC_v6.5_generic.input```. This file indicates which columns are the model parameters in the simulation input file, how many simulations to retain, and other parameters (see ABCtoolbox manual for more details).
 
+To perform the ABC estimation for each model:
 
+```
+cd ABC_scripts/ABCestimator_input_noPsi
+chmod +x ABCestimator_linux64 
+./ABCestimator_linux64 mantelliABC_v6.5_generic.input simName=mantelliABC_v6.5_model_G_100K_transformed_noPsi.txt obsName=empiricalSS_mantelliABC_v6.5_transformed_noPsi_6PLS.txt outputPrefix=mantelliABC_v6.5_model_G_100K_noPsi_6PLS > mantelliABC_v6.5_model_G_100K_noPsi_6PLS_terminalOut.txt
+./ABCestimator_linux64 mantelliABC_v6.5_generic.input simName=mantelliABC_v6.5_model_H_100K_transformed_noPsi.txt obsName=empiricalSS_mantelliABC_v6.5_transformed_noPsi_6PLS.txt outputPrefix=mantelliABC_v6.5_model_H_100K_noPsi_6PLS > mantelliABC_v6.5_model_H_100K_noPsi_6PLS_terminalOut.txt
+[...]
+```
 
+For each model (here, examples shown for Model G), the following files are created:
+- ```mantelliABC_v6.5_model_G_100K_noPsi_6PLS_terminalOut.txt```, terminal output
+- ```mantelliABC_v6.5_model_G_100K_noPsi_6PLSBestSimsParamStats_Obs0.txt```, 500 retained (best-fitting) simulations
+- ```mantelliABC_v6.5_model_G_100K_noPsi_6PLSL1DistancePriorPosterior.txt```, L1 distance between parameter prior and posterior distributions
+- ```mantelliABC_v6.5_model_G_100K_noPsi_6PLSPosteriorCharacteristics_Obs0.txt```, summary of the parameter posterior distributions
+- ```mantelliABC_v6.5_model_G_100K_noPsi_6PLSPosteriorEstimates_Obs0.txt```, complete parameter posterior distributions, with GLM adjustment
+- ```mantelliABC_v6.5_model_G_100K_noPsi_6PLSTruncatedPrior_Obs0.txt```, raw parameter distributions of the 500 retained simulations
+
+The most relevant files are the ```terminalOut.txt``` file, which prints the marginal density of the model and the p-value, and the ```PosteriorCharacteristics_Obs0.txt``` with the parameter estimates for each model.
+
+To select the best-fitting model, inspect the marginal density of each  model in the ```terminalOut.txt``` files. The selected model is the one with the highest marginal density. To assess relative support for one model over another, Bayes Factors can be calculated by dividing the marginal density of a higher-supported model by the marginal density of a lower-supported model.
