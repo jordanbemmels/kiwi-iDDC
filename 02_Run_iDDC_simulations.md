@@ -115,7 +115,7 @@ kiwi-iDDC/model_scripts/mantelliABC_v6_model_G/ABCsampler
 
 ## Confirming model directories are ready to run simulations
 
-One the ```calSumStat``` directory and the software executables have been added to each model directory, check that all files are present and in their proper locations. An example to check whether all files are in their correct locations for Model G is as follows:
+Once the ```calSumStat``` directory and the software executables have been added to each model directory, check that all files are present and in their proper locations. An example to check whether all files are in their correct locations for Model G is as follows:
 
 ```
 kiwi-iDDC/model_scripts/mantelliABC_v6_model_G/
