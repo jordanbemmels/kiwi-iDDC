@@ -69,7 +69,7 @@ re_functions_resistance.r # additional functions loaded by calPsi.r
 ssdefs.txt # input file for Arlequin
 ```
 
-We do not need to modify *calPsi.r*, *calSumStat.py*, or *re_functions_resistance.r*. You may need to replace the default *arlsumstat* executable with a version that works on your own system (can be downloaded from the [Arlequin web page](http://cmpg.unibe.ch/software/arlequin35/), if the downloaded one does not work. The remaining three files (*arl_run.ars*, *empiricalSS.obs*, and *ssdefs.txt*) are specific to the example downloaded from the X-ORIGIN repository and will not work with the kiwi iDDC models. These three files need to be replaced with updated versions specific to the kiwi iDDC project, which are located in [kiwi-iDDC/model_scripts/](https://github.com/jordanbemmels/kiwi-iDDC/tree/main/model_scripts/calSumStat_kiwi_replacementFiles).
+We do not need to modify *calPsi.r*, *calSumStat.py*, *re_functions_resistance.r*, or *arlsumstat*. Note that *arlsumstat* can also be downloaded from the [Arlequin web page](http://cmpg.unibe.ch/software/arlequin35/). The remaining three files (*arl_run.ars*, *empiricalSS.obs*, and *ssdefs.txt*) are specific to the example downloaded from the X-ORIGIN repository and will not work with the kiwi iDDC models. These three files need to be replaced with updated versions specific to the kiwi iDDC project, which are located in [kiwi-iDDC/model_scripts/](https://github.com/jordanbemmels/kiwi-iDDC/tree/main/model_scripts/calSumStat_kiwi_replacementFiles).
 
 ```
 cd kiwi-iDDC/workingDir_compileCalSumStat
