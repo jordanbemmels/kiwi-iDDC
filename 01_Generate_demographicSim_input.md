@@ -93,7 +93,7 @@ Write a function to create the oriworld and veg2K files for a given model. The o
 writeOriVeg2K <- function(sequential_envs, env_names, oriworld_filename) {
 
 	if (length(sequential_envs) != length(env_names)) {
-		stop("ERROR: the number of environment names provided does not match the number of environment names");
+		stop("ERROR: the number of environment names provided does not match the number of sequential environment files");
 	}
 	
 	# get the dimensions of the rasters - all must be the same!;
