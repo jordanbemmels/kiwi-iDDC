@@ -24,7 +24,7 @@ cd ABC_scripts
 Rscript ABC00_merge_sims_remove_failed_v6.R
 ```
 
-The output will be a single file for each model, with a maximum of 100,000 simulations per file that passed quality control. If fewer simulations are available, a warning will be printed and the user should perform additional simulations then re-run the script. An example file name might be ```mantelliABC_v6_model_G_100K.txt```, but this file will be very large and for demonstration purposes we only provide the first 10 simulations per model, e.g., ```ABC_scripts/mantelliABC_v6_model_G_10sims.txt```.
+The output will be a single file for each model, with a maximum of 100,000 simulations per file that passed quality control. If fewer simulations are available, a warning will be printed and the user should perform additional simulations then re-run the script. An example file name might be ```mantelliABC_v6_model_G_100K.txt```, but this file will be very large and for demonstration purposes we only provide the first 10 simulations per model, e.g., [ABC_scripts/example_sim_outfiles/mantelliABC_v6_model_G_10sims.txt](https://github.com/jordanbemmels/kiwi-iDDC/blob/main/ABC_scripts/example_sim_outfiles/mantelliABC_v6_model_G_10sims.txt).
 
 ## Select 10,000 simulations per model
 
