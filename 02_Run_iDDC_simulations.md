@@ -161,7 +161,7 @@ We are now ready to run simulations, using ABCsampler as the wrapper program wit
 
 ```
 cd kiwi-iDDC/model_scripts/mantelliABC_v6_model_G/
-./ABCsampler mantelliABC_v6_model_G_NIAGARA.input
+./ABCsampler mantelliABC_v6_model_G.input
 ```
 
 There will be several files created, but the main new output file will be as follows:
@@ -172,7 +172,7 @@ mantelliABC_v6_model_G_output_sampling1.txt
 
 On each line of the ```output_sampling1.txt``` file will be the simulation replicate, the parameters, and the simulated summary statistics for that replicate.
 
-The default scripts provided here are set up to perform only a single simulation, which may take several minutes. To peform a different number of simulation replicates, adjust the ```nbsims``` setting in the ```mantelliABC_v6_model_G_NIAGARA.input``` file. For example, to perform 100 simulations, adjust line 9 to:
+The default scripts provided here are set up to perform only a single simulation, which may take several minutes. To peform a different number of simulation replicates, adjust the ```nbsims``` setting in the ```mantelliABC_v6_model_G.input``` file. For example, to perform 100 simulations, adjust line 9 to:
 
 ```
 nbSims 100
