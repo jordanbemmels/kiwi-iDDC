@@ -162,7 +162,7 @@ writeOriVeg2K(sequential_envs = c(LIG_sae, postLIG_sae, preLGM_sae, LGM_sae, ear
 
 The command will generate eight output files. The file *oriworld_model_G.asc* is a single map where pixel values represent categories, each category being a unique combination of habitat-suitability values across the seven time periods. Because there are seven time periods with 11 habitat suitability bins each (from 0 to 10), we could theoretically have 11^7 = 19,487,171 different categories. In practice, many combinations are not found plus the number of pixels in the map is far below this number, so there are typically <1,000 unique categories.
 
-The seven *veg2K* files (*veg2K_model_G_env1_LIG.txt*, *veg2K_model_G_env2_postLIG.txt*, *veg2K_model_G_env3_preLGM.txt*, *veg2K_model_G_env4_LGM.txt*, *veg2K_model_G_env5_earlyHolo.txt*, *veg2K_model_G_env6_midHolo.txt*, *veg2K_model_G_env7_current.txt*) represent each of the seven time periods. Let's inspect some lines of the first veg2K file (*veg2K_model_G_env1_LIG.txt*):
+The seven generated *veg2K* files (*veg2K_model_G_env1_LIG.txt*, *veg2K_model_G_env2_postLIG.txt*, *veg2K_model_G_env3_preLGM.txt*, *veg2K_model_G_env4_LGM.txt*, *veg2K_model_G_env5_earlyHolo.txt*, *veg2K_model_G_env6_midHolo.txt*, *veg2K_model_G_env7_current.txt*) represent each of the seven time periods. Let's inspect some lines of the first veg2K file (*veg2K_model_G_env1_LIG.txt*):
 
 ```
 1	k_0	1
@@ -175,7 +175,7 @@ The seven *veg2K* files (*veg2K_model_G_env1_LIG.txt*, *veg2K_model_G_env2_postL
 605	k_0	605
 ```
 
-The first column is the vegetation category, the second column is the carrying capacity (here represented as k_0, k_6, k_7, etc., to indicate a value chosen from the prior), the third column is a name or description for the vegetation category (here, identical to first column for simplicity). This means that pixels with a value of 1 in the *oriworld_model_G.asc* file have a carrying capacity of "k_0" during the LIG. Pixels with a value of 11 have carrying capacity "k_6", value 12 have carrying capacity "k_7", etc. The carrying capacities k_0, k_6, etc., are variables that will be replaced according to the prior on maximum carrying capacity (Kmax), rather than actual values.
+The first column is the vegetation category, the second column is the carrying capacity (here represented as k_0, k_6, k_7, etc., to indicate a value chosen from the prior, which will be updated with an actual number by ABCtoolbox when running the simulations), the third column is a name or description for the vegetation category (here, identical to first column for simplicity). This means that pixels with a value of 1 in the *oriworld_model_G.asc* file have a carrying capacity of "k_0" during the LIG. Pixels with a value of 11 have carrying capacity "k_6", value 12 have carrying capacity "k_7", etc. The carrying capacities k_0, k_6, etc., are variables that will be replaced according to the prior on maximum carrying capacity (Kmax), rather than actual values.
 
 Now, inspect the *veg2k* file for the second time period (*veg2K_model_G_env2_postLIG.txt*):
 
