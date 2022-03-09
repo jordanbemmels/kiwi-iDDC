@@ -16,15 +16,15 @@ Note that the naming convention of models is simplified here relative to the nam
 
 **Model_G**: *noBarrier*</br>
 **Model_H**: *ancientBarrier*</br>
-**Model_I**: *noBarrier+volcano*</br>
-**Model_J**: *ancientBarrier+volcano*</br>
+**Model_I**: *noBarrier+volcanoes*</br>
+**Model_J**: *ancientBarrier+volcanoes*</br>
 **Model_M**: *fullBarrier*</br>
-**Model_N**: *fullBarrier+volcano*</br>
+**Model_N**: *fullBarrier+volcanoes*</br>
 **Model_S**: *ancientBarrier+Oruanui*</br>
 **Model_T**: *ancientBarrier+Hatepe*</br>
-**Model_yK**: *noBarrier+volcano+human*</br>
-**Model_yL**: *ancientBarrier+volcano+human*</br>
-**Model_yO**: *fullBarrier+volcano+human*</br>
+**Model_yK**: *noBarrier+volcanoes+human*</br>
+**Model_yL**: *ancientBarrier+volcanoes+human*</br>
+**Model_yO**: *fullBarrier+volcanoes+human*</br>
 **Model_yP**: *noBarrier+human*</br>
 **Model_yQ**: *ancientBarrier+human*</br>
 **Model_yR**: *fullBarrier+human*
