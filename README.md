@@ -1,6 +1,6 @@
 This repository contains example commands for analyses run in the manuscript:
 
-Jordan B. Bemmels, Oliver Haddrath, Rogan M. Colbourne, Hugh A. Robertson, Jason T. Weir. Legacy of supervolcanic eruptions on population genetic structure of kiwi. *In review.*
+Jordan B. Bemmels, Oliver Haddrath, Rogan M. Colbourne, Hugh A. Robertson, Jason T. Weir. Legacy of supervolcanic eruptions on population genetic structure of brown kiwi. *In review.*
 
 For questions, contact Jordan Bemmels (jordan.bemmels@utoronto.ca).
 
