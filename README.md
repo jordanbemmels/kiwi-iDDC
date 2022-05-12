@@ -1,6 +1,6 @@
 This repository contains example commands for analyses run in the manuscript:
 
-Jordan B. Bemmels, Oliver Haddrath, Rogan M. Colbourne, Hugh A. Robertson, Jason T. Weir. 2022. Legacy of supervolcanic eruptions on population genetic structure of brown kiwi. Current Biology, accepted in principle pending final submission.
+Jordan B. Bemmels, Oliver Haddrath, Rogan M. Colbourne, Hugh A. Robertson, Jason T. Weir. 2022. Legacy of supervolcanic eruptions on population genetic structure of brown kiwi. <i>Current Biology</i>, accepted in principle pending final submission.
 
 For questions, contact Jordan Bemmels (jordan.bemmels@utoronto.ca).
 
