@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/460195797.svg)](https://zenodo.org/badge/latestdoi/460195797)
+
 This repository contains example commands for analyses run in the manuscript:
 
 Jordan B. Bemmels, Oliver Haddrath, Rogan M. Colbourne, Hugh A. Robertson, Jason T. Weir. 2022. Legacy of supervolcanic eruptions on population genetic structure of brown kiwi. <i>Current Biology</i>, accepted in principle pending final submission.
